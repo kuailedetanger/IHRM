@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.itheima.activiti</groupId>
-    <artifactId>activiti01</artifactId>
+    <artifactId>activiti02</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

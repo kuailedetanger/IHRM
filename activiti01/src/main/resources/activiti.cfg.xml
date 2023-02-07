@@ -29,6 +29,7 @@
     <property name="jdbcPassword" value="root" />-->
     <!--代表是否生成表结构-->
 <!--        true: 构建流程引擎时，执行检查，如果需要就执行更新。 如果表不存在，就创建。-->
+<!--        drop-create：先删除表再创建表。-->
     <property name="databaseSchemaUpdate" value="true"/>
     </bean>
 </beans>

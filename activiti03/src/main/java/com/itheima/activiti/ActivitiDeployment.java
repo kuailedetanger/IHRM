@@ -44,19 +44,9 @@ public class ActivitiDeployment {
 
 
     //流程定义部署
-//    public static void main(String[] args) {
-//        singleFileDeployment( );
-//    }
 
-    /**
-     * @Description: 单个文件部署方式
-     * @Param: []
-     * @Return: void
-     * @Author: tanggd
-     * @Date: 2023/2/7 23:38
-     */
-    private static void singleFileDeployment()
-    {
+}
+/* public static void main(String[] args) {
         //1.创建ProcessEngine对象
         ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 
@@ -65,13 +55,12 @@ public class ActivitiDeployment {
 
         //3.进行部署
         Deployment deployment = repositoryService.createDeployment()
-                .addClasspathResource("diagram/holiday.bpmn")  //添加bpmn资源
-                .addClasspathResource("diagram/holiday.png")
+                .addClasspathResource("diagram/holiday2.bpmn")  //添加bpmn资源
+                .addClasspathResource("diagram/holiday2.png")
                 .name("请假申请单流程")
                 .deploy();
 
         //4.输出部署的一些信息
         System.out.println(deployment.getName());
         System.out.println(deployment.getId());
-    }
-}
+    }*/
